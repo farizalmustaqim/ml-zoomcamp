@@ -1,7 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 import requests
+import json
 
 url = 'http://localhost:8000/predict'
 
@@ -17,11 +15,6 @@ customer = {
     "bmi": 20.0,
     "smoking_status": "smokes"
 }
-response = requests.post(url, json=customer).json()
-print(response)
 
-if response['stroke'] == True:
-    print('patient has stroke')
-
-else:
-    print('patient does not have stroke')
+response = requests.post(url, json=customer, headers={'Content-Type': 'application/json'})
+print(response.json())
