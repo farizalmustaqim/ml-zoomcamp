@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 output_file = 'xgb_classification.bin'
-dataset = 'https://raw.githubusercontent.com/farizalmustaqim/Project-Brain-Stroke-Prediction/main/Dataset/full_data.csv'
+dataset = 'https://raw.githubusercontent.com/farizalmustaqim/ml-zoomcamp/main/07-midterm/full_data.csv'
 
 df = pd.read_csv(dataset)
 
