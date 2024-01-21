@@ -32,7 +32,7 @@ cd ml-zoomcamp/face-detection-using-yolov8/train
 
 ## Test the model
 
-### 2. Install the requirements
+### 1. Install the requirements
 
 ```bash
 pip install pipenv 
@@ -40,7 +40,7 @@ pipenv install
     
 ```
 
-### 3. Run the project
+### 2. Run the project
 
 
 ```bash
@@ -48,7 +48,7 @@ pipenv run gunicorn --bind 0.0.0.0:5000 main:app
 
 ```
 
-### 4. Test the project
+### 3. Test the project
 
 access the following url in your browser such as Google Chrome, Mozilla Firefox, etc.
 visit http://localhost:5000 or http://0.0.0.0:5000
