@@ -1,1 +1,10 @@
 .vscode
+__pycache__
+*.jpg 
+*.jpe 
+*.jpeg 
+*.png 
+*.gif
+*.svg
+*.bmp
+*.webp
