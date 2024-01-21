@@ -16,6 +16,7 @@ flask = "*"
 flask-reuploaded = "*"
 flask-wtf = "*"
 gunicorn = "*"
+omegaconf = "*"
 
 [dev-packages]
 
