@@ -1,4 +1,4 @@
 .vscode
 __pycache__
-static/uploads/
-static/results/
+./static/uploads/*
+./static/results/*
