@@ -17,6 +17,8 @@ flask-reuploaded = "*"
 flask-wtf = "*"
 gunicorn = "*"
 omegaconf = "*"
+streamlit  = "1.12.0"
+altair = "4.2.2"
 
 [dev-packages]
 
